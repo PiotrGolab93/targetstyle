@@ -1,0 +1,28 @@
+/* Layout set-up */
+* {
+  box-sizing: content-box;
+}
+// Settings
+@import './config/colors';
+
+body {
+  padding: 0;
+  margin: auto;
+  background-color: black;
+  font-family: 'Asap', sans-serif;
+}
+
+.content {
+  padding-top: 90px;
+
+  &__container {
+    max-width: 760px;
+    padding: 40px 70px;
+    margin: 0 auto;
+    background: black;
+  }
+}
+
+// Components
+
+// Mixins
